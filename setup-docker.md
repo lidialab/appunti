@@ -4,7 +4,9 @@
 
 ### Installazione
 
-#### Add GPG key
+https://docs.docker.com/engine/install/ubuntu/
+
+#### Aggiungi la chiave GPG ufficiale di Docker
 
 ```
 sudo apt-get update
@@ -14,7 +16,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-#### Add repository
+#### Aggiungi il repository ufficiale di Docker
 
 ```
 echo \
